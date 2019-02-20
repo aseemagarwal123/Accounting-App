@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_dash"
+            android:icon="?android:attr/actionModeSelectAllDrawable"
+            android:title="Add client" />
+
+        <item android:id="@+id/nav_sale"
+            android:icon="@mipmap/baseline_multiline_chart_black_24dp"
+            android:title="Add item"/>
+
+        <item android:id="@+id/nav_purchase"
+            android:icon="@mipmap/baseline_shopping_cart_black_24dp"
+            android:title="@string/m_l2"/>
+
+        <item android:id="@+id/nav_saleactiv"
+            android:icon="@mipmap/baseline_note_black_24dp"
+            android:title="Sale"/>
+
+        <item android:id="@+id/nav_payment"
+            android:icon="@mipmap/baseline_credit_card_black_24dp"
+            android:title="@string/m_l4"/>
+
+        <item android:id="@+id/nav_contra"
+            android:icon="@mipmap/baseline_featured_play_list_black_24dp"
+            android:title="@string/m_l5"/>
+
+        <item android:id="@+id/nav_journal"
+            android:icon="@mipmap/baseline_list_alt_black_24dp"
+            android:title="@string/m_l6"/>
+
+        <item android:id="@+id/nav_debit_note"
+            android:icon="@mipmap/baseline_speaker_notes_black_24dp"
+            android:title="@string/m_l7"/>
+
+        <item android:id="@+id/nav_credit_note"
+            android:icon="@mipmap/baseline_speaker_notes_black_24dp"
+            android:title="@string/m_l8"/>
+
+        <item android:id="@+id/nav_cheque_entry"
+            android:icon="@mipmap/baseline_money_black_24dp"
+            android:title="@string/m_l9"/>
+
+    </group>
+    <item android:title="@string/none_1">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/nav_account_setting"
+                    android:icon="@mipmap/baseline_settings_black_24dp"
+                    android:title="@string/m_l10"/>
+
+                <item android:id="@+id/nav_logout"
+                    android:icon="@mipmap/baseline_lock_black_24dp"
+                    android:title="@string/m_l11"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

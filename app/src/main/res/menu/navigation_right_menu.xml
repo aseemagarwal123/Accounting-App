@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_balance_sheet"
+        android:title="@string/m_r1"/>
+
+    <item android:id="@+id/nav_pro_loss"
+        android:title="@string/m_r2"/>
+
+    <item android:id="@+id/nav_trial_balance"
+        android:title="@string/m_r3"/>
+
+    <item android:id="@+id/nav_stock_summary"
+        android:title="@string/m_r4"/>
+
+    <item android:id="@+id/nav_gst_rep"
+        android:title="@string/m_r5"/>
+
+    <item android:id="@+id/nav_in_tax_comp"
+        android:title="@string/m_r6"/>
+
+    <item android:id="@+id/nav_other_rep"
+        android:title="@string/m_r7"/>
+
+</menu>

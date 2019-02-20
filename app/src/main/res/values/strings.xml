@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Make My Accounting</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="m_l1">Sale</string>
+    <string name="m_l2">Purchase</string>
+    <string name="m_l3">Receipt</string>
+    <string name="m_l4">Payment</string>
+    <string name="m_l5">Contra</string>
+    <string name="m_l6">Journal</string>
+    <string name="m_l7">Debit Note</string>
+    <string name="m_l8">Credit Note</string>
+    <string name="m_l9">Cheque Entry</string>
+    <string name="m_l10">Account Setting</string>
+    <string name="m_l11">Logout</string>
+    <string name="m_r1">Balance Sheet</string>
+    <string name="m_r2">Profit and Loss Account</string>
+    <string name="m_r3">Trial Balance</string>
+    <string name="m_r4">Stock Summary</string>
+    <string name="m_r5">GST Report</string>
+    <string name="m_r6">Income Tax Computation</string>
+    <string name="m_r7">Other Reports</string>
+    <string name="none_1">Account</string>
+    <string name="nav">Navigation</string>
+    <string name="reg">Registration</string>
+    <string name="btnReg">Register</string>
+    <string name="chooseSign">Choose Signature</string>
+    <string name="chooseLogo">Choose Logo of Company</string>
+    <string name="username">Username</string>
+    <string name="pass">Password</string>
+    <string name="loginBtn">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="title">ACCOUNTING</string>
+    <string name="subTitle">Modern Software for Modern Business</string>
+    <string name="splashFooter">Make My Accounting | All Rights Reserved.</string>
+    <string name="compName">COMPANY NAME</string>
+    <string name="fy">2018 - 2019</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Sale</string>
+
+
+    <string-array name="gstReg">
+        <item>Registered</item>
+        <item>Unregistered</item>
+    </string-array>
+
+    <string-array name="financialYear">
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+    </string-array>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+
+</resources>

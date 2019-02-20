@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashboard_bg"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:scaleType="centerCrop"
+    android:weightSum="10"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+
+        <TextView
+            android:id="@+id/companyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:text="Company Name Pvt. Ltd."
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:background="@color/colorPrimaryDark" />
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:rowCount="2">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bill To"
+                android:textAlignment="viewStart"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MR. CUSTOMER NAME"
+                android:textAlignment="viewStart"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GSTIN"
+                android:textAlignment="viewStart"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="98DXRSE34ZDI"
+                android:textAlignment="viewStart"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tax Invoice"
+                android:textAlignment="viewEnd"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Invoice No. : "
+                    android:textAlignment="viewEnd"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="INV234"
+                    android:textAlignment="viewEnd"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dated : "
+                    android:textAlignment="viewEnd"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="31/12/2018"
+                    android:textAlignment="viewEnd"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Due Date : "
+                    android:textAlignment="viewEnd"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="31/01/2019"
+                    android:textAlignment="viewEnd"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:orientation="vertical"></LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dispatch Doc. No. : "
+                    android:textAlignment="viewEnd"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DOC0123"
+                    android:textAlignment="viewEnd"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dispatch Through : "
+                    android:textAlignment="viewEnd"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle"
+                    android:textAlignment="viewEnd"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Destination : "
+                    android:textAlignment="viewEnd"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lucknow"
+                    android:textAlignment="viewEnd"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </GridLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tbl1"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="0"
+                android:background="@color/colorPrimaryDark"
+                android:padding="2dp"
+                android:text="S.No."
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_column="1"
+                android:background="@color/colorPrimaryDark"
+                android:padding="2dp"
+                android:text="Description"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_column="2"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Tax %"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Qty"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_column="4"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="right"
+                android:padding="2dp"
+                android:text="Rate"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_column="5"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="right"
+                android:padding="2dp"
+                android:text="Disc. %"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_column="6"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="right"
+                android:padding="2dp"
+                android:text="Amount"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tbrdynamic">
+
+            <TextView
+                android:layout_column="0"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="1"
+                android:textAlignment="center"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_column="1"
+                android:gravity="start"
+                android:padding="2dp"
+                android:text="Item Name..."
+                android:textAlignment="viewStart"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_column="2"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="10"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_column="3"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="100"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_column="4"
+                android:gravity="end"
+                android:padding="2dp"
+                android:text="1000.00"
+                android:textAlignment="center"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_column="5"
+                android:gravity="end"
+                android:padding="2dp"
+                android:text="10"
+                android:textAlignment="center"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_column="6"
+                android:gravity="end"
+                android:padding="2dp"
+                android:text="20000.00"
+                android:textSize="11sp" />
+
+        </TableRow>
+
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="4"
+                android:gravity="end"
+                android:padding="2dp"
+                android:text="Sub Total"
+                android:textAlignment="center"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_column="6"
+                android:gravity="end"
+                android:padding="2dp"
+                android:text="20000.00"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_column="4"
+                android:gravity="end"
+                android:padding="2dp"
+                android:text="CGST"
+                android:textAlignment="center"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_column="6"
+                android:gravity="end"
+                android:padding="2dp"
+                android:text="200.00"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="4"
+                android:gravity="end"
+                android:padding="2dp"
+                android:text="SGST"
+                android:textAlignment="center"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_column="6"
+                android:gravity="end"
+                android:padding="2dp"
+                android:text="200.00"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_column="4"
+                android:gravity="end"
+                android:padding="2dp"
+                android:text="Total"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_column="6"
+                android:gravity="end"
+                android:padding="2dp"
+                android:text="200400.00"
+                android:textColor="@android:color/white"
+                android:textSize="11sp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="4"
+                android:gravity="end"
+                android:padding="2dp"
+                android:text="Paid"
+                android:textAlignment="center"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_column="6"
+                android:gravity="end"
+                android:padding="2dp"
+                android:text="400.00"
+                android:textColor="@color/colorPrimary"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="4"
+                android:gravity="end"
+                android:padding="2dp"
+                android:text="Balance"
+                android:textAlignment="center"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_column="6"
+                android:gravity="end"
+                android:padding="2dp"
+                android:text="200000.00"
+                android:textColor="@color/colorAccent"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textViewTax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Tax Details"
+        android:textSize="12sp" />
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="0"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="S.No."
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_column="1"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="start"
+                android:padding="2dp"
+                android:text="Taxable Amount"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_column="2"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="%"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_column="3"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="CGST"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_column="4"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="%"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_column="5"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="SGST"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="0"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="1"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_column="1"
+                android:gravity="start"
+                android:padding="2dp"
+                android:text="400"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_column="2"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="10"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_column="3"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="200"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_column="4"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="10"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_column="5"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="200"
+                android:textSize="11sp" />
+
+        </TableRow>
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Total"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_column="3"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="200"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_column="5"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="200"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textViewReceipt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Receipt Details"
+        android:textSize="12sp" />
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="0"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Date"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_column="1"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="start"
+                android:padding="2dp"
+                android:text="Reference No."
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_column="2"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Amount"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="0"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="11/01/2019"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_column="1"
+                android:gravity="start"
+                android:padding="2dp"
+                android:text="RCV22"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_column="2"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="400"
+                android:textSize="11sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textViewSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Authorized Signature"
+        android:textAlignment="viewEnd"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="We declare that this invoice show the actual price of the goods described and all particulars are true and correct."
+        android:textSize="12sp" />
+
+</LinearLayout>
